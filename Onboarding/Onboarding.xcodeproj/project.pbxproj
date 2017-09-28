@@ -14,11 +14,11 @@
 		7B10997A1F7D42A800097F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099781F7D42A800097F98 /* LaunchScreen.storyboard */; };
 		7B1099821F7D44BD00097F98 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1099811F7D44BD00097F98 /* TutorialPageViewController.swift */; };
 		7B1099841F7D44FA00097F98 /* TutorialPageViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1099831F7D44FA00097F98 /* TutorialPageViewControllerDelegate.swift */; };
-		7B10998B1F7D65D300097F98 /* Chat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099861F7D65D300097F98 /* Chat.jpg */; };
-		7B10998C1F7D65D300097F98 /* Sessions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099871F7D65D300097F98 /* Sessions.jpg */; };
-		7B10998E1F7D65D300097F98 /* Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099891F7D65D300097F98 /* Home.jpg */; };
-		7B1099911F7D684200097F98 /* Menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B10998F1F7D684200097F98 /* Menu.jpg */; };
-		7B1099921F7D684200097F98 /* Search.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099901F7D684200097F98 /* Search.jpg */; };
+		7B1099981F7D870D00097F98 /* Menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099931F7D870D00097F98 /* Menu.jpg */; };
+		7B1099991F7D870D00097F98 /* Chat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099941F7D870D00097F98 /* Chat.jpg */; };
+		7B10999A1F7D870D00097F98 /* Sessions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099951F7D870D00097F98 /* Sessions.jpg */; };
+		7B10999B1F7D870D00097F98 /* Search.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099961F7D870D00097F98 /* Search.jpg */; };
+		7B10999E1F7D88CF00097F98 /* Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B10999D1F7D88CF00097F98 /* Home.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +31,11 @@
 		7B10997B1F7D42A800097F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B1099811F7D44BD00097F98 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 		7B1099831F7D44FA00097F98 /* TutorialPageViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewControllerDelegate.swift; sourceTree = "<group>"; };
-		7B1099861F7D65D300097F98 /* Chat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chat.jpg; sourceTree = "<group>"; };
-		7B1099871F7D65D300097F98 /* Sessions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sessions.jpg; sourceTree = "<group>"; };
-		7B1099891F7D65D300097F98 /* Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home.jpg; sourceTree = "<group>"; };
-		7B10998F1F7D684200097F98 /* Menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Menu.jpg; sourceTree = "<group>"; };
-		7B1099901F7D684200097F98 /* Search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Search.jpg; sourceTree = "<group>"; };
+		7B1099931F7D870D00097F98 /* Menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Menu.jpg; sourceTree = "<group>"; };
+		7B1099941F7D870D00097F98 /* Chat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chat.jpg; sourceTree = "<group>"; };
+		7B1099951F7D870D00097F98 /* Sessions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sessions.jpg; sourceTree = "<group>"; };
+		7B1099961F7D870D00097F98 /* Search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Search.jpg; sourceTree = "<group>"; };
+		7B10999D1F7D88CF00097F98 /* Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +74,11 @@
 				7B1099811F7D44BD00097F98 /* TutorialPageViewController.swift */,
 				7B1099731F7D42A800097F98 /* Main.storyboard */,
 				7B1099761F7D42A800097F98 /* Assets.xcassets */,
-				7B1099861F7D65D300097F98 /* Chat.jpg */,
-				7B1099871F7D65D300097F98 /* Sessions.jpg */,
-				7B1099891F7D65D300097F98 /* Home.jpg */,
-				7B10998F1F7D684200097F98 /* Menu.jpg */,
-				7B1099901F7D684200097F98 /* Search.jpg */,
+				7B1099931F7D870D00097F98 /* Menu.jpg */,
+				7B1099941F7D870D00097F98 /* Chat.jpg */,
+				7B10999D1F7D88CF00097F98 /* Home.jpg */,
+				7B1099951F7D870D00097F98 /* Sessions.jpg */,
+				7B1099961F7D870D00097F98 /* Search.jpg */,
 				7B1099781F7D42A800097F98 /* LaunchScreen.storyboard */,
 				7B10997B1F7D42A800097F98 /* Info.plist */,
 			);
@@ -145,14 +145,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B10998E1F7D65D300097F98 /* Home.jpg in Resources */,
-				7B1099911F7D684200097F98 /* Menu.jpg in Resources */,
+				7B10999E1F7D88CF00097F98 /* Home.jpg in Resources */,
+				7B1099981F7D870D00097F98 /* Menu.jpg in Resources */,
 				7B10997A1F7D42A800097F98 /* LaunchScreen.storyboard in Resources */,
-				7B10998B1F7D65D300097F98 /* Chat.jpg in Resources */,
+				7B1099991F7D870D00097F98 /* Chat.jpg in Resources */,
 				7B1099771F7D42A800097F98 /* Assets.xcassets in Resources */,
-				7B10998C1F7D65D300097F98 /* Sessions.jpg in Resources */,
+				7B10999A1F7D870D00097F98 /* Sessions.jpg in Resources */,
+				7B10999B1F7D870D00097F98 /* Search.jpg in Resources */,
 				7B1099751F7D42A800097F98 /* Main.storyboard in Resources */,
-				7B1099921F7D684200097F98 /* Search.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +332,7 @@
 				7B1099801F7D42A800097F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -209,7 +209,7 @@
     </scenes>
     <resources>
         <image name="Chat.jpg" width="665" height="1182"/>
-        <image name="Home.jpg" width="669" height="1182"/>
+        <image name="Home.jpg" width="750" height="1334"/>
         <image name="Menu.jpg" width="665" height="1182"/>
         <image name="Search.jpg" width="665" height="1182"/>
         <image name="Sessions.jpg" width="665" height="1182"/>
