@@ -1,26 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Tutorial View Controller-->
+        <scene sceneID="8fa-cu-qJ0">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TutorialViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yQd-iC-hxE" customClass="TutorialViewController" customModule="Onboarding" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="cg2-pI-VQe"/>
+                        <viewControllerLayoutGuide type="bottom" id="jya-3l-0NL"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="hdx-lx-YOw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I07-Wk-owJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="629"/>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUI-b2-1z6">
+                                <rect key="frame" x="311" y="637" width="56" height="22"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" red="0.2299211025" green="0.69972521070000004" blue="0.90706592799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapDoneButton:" destination="yQd-iC-hxE" eventType="touchUpInside" id="8Je-4L-Q1A"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="q2p-MK-DCn">
+                                <rect key="frame" x="160" y="630" width="55" height="37"/>
+                                <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.058941222729999999" green="0.033069014549999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2299211025" green="0.69972521070000004" blue="0.90706592799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AUI-b2-1z6" firstAttribute="top" secondItem="I07-Wk-owJ" secondAttribute="bottom" constant="8" id="3mo-VI-cLC"/>
+                            <constraint firstItem="I07-Wk-owJ" firstAttribute="top" secondItem="hdx-lx-YOw" secondAttribute="top" id="3vd-2w-2r5"/>
+                            <constraint firstAttribute="trailing" secondItem="AUI-b2-1z6" secondAttribute="trailing" constant="8" id="8UM-9z-Yhh"/>
+                            <constraint firstAttribute="bottom" secondItem="AUI-b2-1z6" secondAttribute="bottom" constant="8" id="Jrr-je-9JM"/>
+                            <constraint firstAttribute="trailing" secondItem="I07-Wk-owJ" secondAttribute="trailing" id="S6b-bG-mcy"/>
+                            <constraint firstItem="q2p-MK-DCn" firstAttribute="bottom" secondItem="jya-3l-0NL" secondAttribute="top" id="cqE-Cv-fMA"/>
+                            <constraint firstItem="q2p-MK-DCn" firstAttribute="centerX" secondItem="hdx-lx-YOw" secondAttribute="centerX" id="gzT-30-h57"/>
+                            <constraint firstItem="jya-3l-0NL" firstAttribute="top" secondItem="I07-Wk-owJ" secondAttribute="bottom" constant="38" id="jpO-LW-a55"/>
+                            <constraint firstItem="I07-Wk-owJ" firstAttribute="leading" secondItem="hdx-lx-YOw" secondAttribute="leading" id="kEh-98-xjf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="I07-Wk-owJ" id="kU6-12-wvh"/>
+                        <outlet property="pageControl" destination="q2p-MK-DCn" id="LIi-Kf-Jrl"/>
+                        <segue destination="Sea-Re-s9Z" kind="show" id="1Gc-fD-ZIW"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yx2-lX-uQq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="16.800000000000001" y="-1164.4677661169417"/>
+        </scene>
+        <!--Tutorial Page View Controller-->
+        <scene sceneID="5tH-ZY-uE8">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Sea-Re-s9Z" customClass="TutorialPageViewController" customModule="Onboarding" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HnV-nF-5rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="-274"/>
         </scene>
     </scenes>
 </document>

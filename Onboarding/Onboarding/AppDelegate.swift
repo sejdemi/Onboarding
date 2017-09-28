@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Onboarding
-//
-//  Created by Sejan Miah on 9/28/17.
-//  Copyright © 2017 Sejan Miah. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
