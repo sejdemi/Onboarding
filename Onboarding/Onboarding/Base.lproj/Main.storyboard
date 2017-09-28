@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -87,7 +88,18 @@
                     <view key="view" contentMode="scaleToFill" id="Jh0-EP-AQX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2299211025" green="0.69972521070000004" blue="0.90706592799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lMS-p2-bTm">
+                                <rect key="frame" x="16" y="28" width="343" height="619"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.060983970761299133" green="0.62173295021057129" blue="0.76811385154724121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lMS-p2-bTm" firstAttribute="trailing" secondItem="Jh0-EP-AQX" secondAttribute="trailingMargin" id="HLU-et-YR5"/>
+                            <constraint firstAttribute="bottom" secondItem="lMS-p2-bTm" secondAttribute="bottom" constant="20" symbolic="YES" id="OgJ-5a-WrR"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="lMS-p2-bTm" secondAttribute="leading" id="Ph3-fA-cHH"/>
+                            <constraint firstItem="lMS-p2-bTm" firstAttribute="top" secondItem="1hj-Bw-TSQ" secondAttribute="bottom" constant="8" symbolic="YES" id="yQh-uv-gbo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tah-kJ-NXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -105,7 +117,18 @@
                     <view key="view" contentMode="scaleToFill" id="mre-mt-SHj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2299211025" green="0.69972521070000004" blue="0.90706592799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Search.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RE9-Tm-msW">
+                                <rect key="frame" x="16" y="28" width="343" height="619"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.060983970761299133" green="0.62173295021057129" blue="0.76811385154724121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RE9-Tm-msW" secondAttribute="bottom" constant="20" symbolic="YES" id="2vE-NU-RBl"/>
+                            <constraint firstItem="RE9-Tm-msW" firstAttribute="trailing" secondItem="mre-mt-SHj" secondAttribute="trailingMargin" id="H9s-GV-qqz"/>
+                            <constraint firstItem="RE9-Tm-msW" firstAttribute="top" secondItem="ef0-zd-Xol" secondAttribute="bottom" constant="8" symbolic="YES" id="VLj-kZ-paS"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="RE9-Tm-msW" secondAttribute="leading" id="xzh-fI-ZEd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0c-sm-5MF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -123,7 +146,18 @@
                     <view key="view" contentMode="scaleToFill" id="ydo-Jz-4jE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2299211025" green="0.69972521070000004" blue="0.90706592799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sessions.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wwt-Wd-cYP">
+                                <rect key="frame" x="16" y="28" width="343" height="619"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.060983970761299133" green="0.62173295021057129" blue="0.76811385154724121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="Wwt-Wd-cYP" secondAttribute="leading" id="7t9-Sw-bcP"/>
+                            <constraint firstAttribute="bottom" secondItem="Wwt-Wd-cYP" secondAttribute="bottom" constant="20" symbolic="YES" id="BON-AE-Dsh"/>
+                            <constraint firstItem="Wwt-Wd-cYP" firstAttribute="trailing" secondItem="ydo-Jz-4jE" secondAttribute="trailingMargin" id="WG0-9m-NMy"/>
+                            <constraint firstItem="Wwt-Wd-cYP" firstAttribute="top" secondItem="Z7p-Jp-ueR" secondAttribute="bottom" constant="8" symbolic="YES" id="rG4-ac-vLK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ef1-rO-LXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -141,12 +175,59 @@
                     <view key="view" contentMode="scaleToFill" id="c4s-GZ-ReA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2299211025" green="0.69972521070000004" blue="0.90706592799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chat.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="63p-WZ-3HK">
+                                <rect key="frame" x="16" y="28" width="343" height="619"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.060983970761299133" green="0.62173295021057129" blue="0.76811385154724121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="63p-WZ-3HK" firstAttribute="top" secondItem="0FG-fv-yQF" secondAttribute="bottom" constant="8" symbolic="YES" id="jAx-FF-Pv6"/>
+                            <constraint firstAttribute="bottom" secondItem="63p-WZ-3HK" secondAttribute="bottom" constant="20" symbolic="YES" id="ltq-ta-cgm"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="63p-WZ-3HK" secondAttribute="leading" id="wWI-Ur-c7y"/>
+                            <constraint firstItem="63p-WZ-3HK" firstAttribute="trailing" secondItem="c4s-GZ-ReA" secondAttribute="trailingMargin" id="zS3-FU-rHW"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6O-MU-DrH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1533.5999999999999" y="600.44977511244383"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="lr4-HF-eF7">
+            <objects>
+                <viewController storyboardIdentifier="BrownViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9VB-id-Zws" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UmJ-Ws-hwm"/>
+                        <viewControllerLayoutGuide type="bottom" id="xBH-9m-tet"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uSr-Pm-k5Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Menu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OzJ-Bs-xXk">
+                                <rect key="frame" x="16" y="28" width="343" height="619"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.060983970761299133" green="0.62173295021057129" blue="0.76811385154724121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OzJ-Bs-xXk" firstAttribute="top" secondItem="UmJ-Ws-hwm" secondAttribute="bottom" constant="8" symbolic="YES" id="NK9-nE-95d"/>
+                            <constraint firstItem="OzJ-Bs-xXk" firstAttribute="trailing" secondItem="uSr-Pm-k5Q" secondAttribute="trailingMargin" id="k4a-zu-CCk"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="OzJ-Bs-xXk" secondAttribute="leading" id="pbK-xR-YtX"/>
+                            <constraint firstAttribute="bottom" secondItem="OzJ-Bs-xXk" secondAttribute="bottom" constant="20" symbolic="YES" id="ssT-bq-us0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PSB-3e-OgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2355" y="610"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="Chat.jpg" width="665" height="1182"/>
+        <image name="Home.jpg" width="669" height="1182"/>
+        <image name="Menu.jpg" width="665" height="1182"/>
+        <image name="Search.jpg" width="665" height="1182"/>
+        <image name="Sessions.jpg" width="665" height="1182"/>
+    </resources>
 </document>

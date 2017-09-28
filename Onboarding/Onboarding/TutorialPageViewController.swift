@@ -10,7 +10,8 @@ class TutorialPageViewController: UIPageViewController {
         return [self.newViewController("Green"),
                 self.newViewController("Red"),
                 self.newViewController("Blue"),
-                self.newViewController("Purple")]
+                self.newViewController("Purple"),
+                self.newViewController("Brown")]
     }()
 
 
