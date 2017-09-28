@@ -2,9 +2,10 @@ import UIKit
 
 class TutorialViewController: UIViewController {
 
-    @IBOutlet weak var pageControl: UIPageControl!
-    @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var contianerView: UIView!
 
+    @IBOutlet weak var pageControl: UIPageControl!
+    
     var tutorialPageViewController: TutorialPageViewController? {
         didSet {
             tutorialPageViewController?.tutorialDelegate = self
@@ -22,9 +23,6 @@ class TutorialViewController: UIViewController {
         }
     }
 
-    @IBAction func didTapDoneButton(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
-    }
 
     func didChangePageControlValue() {
         tutorialPageViewController?.scrollToViewController(index: pageControl.currentPage)
