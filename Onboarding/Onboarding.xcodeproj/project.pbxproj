@@ -12,6 +12,8 @@
 		7B1099751F7D42A800097F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099731F7D42A800097F98 /* Main.storyboard */; };
 		7B1099771F7D42A800097F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099761F7D42A800097F98 /* Assets.xcassets */; };
 		7B10997A1F7D42A800097F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1099781F7D42A800097F98 /* LaunchScreen.storyboard */; };
+		7B1099821F7D44BD00097F98 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1099811F7D44BD00097F98 /* TutorialPageViewController.swift */; };
+		7B1099841F7D44FA00097F98 /* TutorialPageViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1099831F7D44FA00097F98 /* TutorialPageViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7B1099761F7D42A800097F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B1099791F7D42A800097F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B10997B1F7D42A800097F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1099811F7D44BD00097F98 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		7B1099831F7D44FA00097F98 /* TutorialPageViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				7B10996F1F7D42A800097F98 /* AppDelegate.swift */,
 				7B1099711F7D42A800097F98 /* TutorialViewController.swift */,
+				7B1099831F7D44FA00097F98 /* TutorialPageViewControllerDelegate.swift */,
+				7B1099811F7D44BD00097F98 /* TutorialPageViewController.swift */,
 				7B1099731F7D42A800097F98 /* Main.storyboard */,
 				7B1099761F7D42A800097F98 /* Assets.xcassets */,
 				7B1099781F7D42A800097F98 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				7B1099721F7D42A800097F98 /* TutorialViewController.swift in Sources */,
 				7B1099701F7D42A800097F98 /* AppDelegate.swift in Sources */,
+				7B1099841F7D44FA00097F98 /* TutorialPageViewControllerDelegate.swift in Sources */,
+				7B1099821F7D44BD00097F98 /* TutorialPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
