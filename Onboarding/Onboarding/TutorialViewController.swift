@@ -1,5 +1,6 @@
 import UIKit
 
+//the original view controller is used as the root view controller for holding the page view controller
 class TutorialViewController: UIViewController {
 
     @IBOutlet weak var contianerView: UIView!

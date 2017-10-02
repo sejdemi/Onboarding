@@ -6,6 +6,8 @@ class TutorialPageViewController: UIPageViewController {
 
     weak var tutorialDelegate: TutorialPageViewControllerDelegate?
 
+    //Next, let’s add an array to reference the view controllers we want to page through. The view controllers will be shown in this order.
+
     lazy var orderedViewControllers: [UIViewController] = {
         return [self.newViewController("Green"),
                 self.newViewController("Red"),
@@ -17,6 +19,8 @@ class TutorialPageViewController: UIPageViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        //set self as datasource and delegate
 
         dataSource = self
         delegate = self
